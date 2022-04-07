@@ -15,20 +15,20 @@ public class Course {
 
     // TODO: Add your custom 'equals' method here. Consider which fields should match in order to call two
     //  Course objects equal.
-    public boolean equals(Object toBeCompared) {
-        if (toBeCompared == this) {
-            return true;
-        }
-
-        if (toBeCompared == null) {
-            return false;
-        }
-
-        if (toBeCompared.getClass() != getClass()) {
-            return false;
-        }
-
-        Course course = (Course) toBeCompared;
-        return course.getTopic() == getTopic();
-    }
+//    public boolean equals(Object toBeCompared) {
+//        if (toBeCompared == this) {
+//            return true;
+//        }
+//
+//        if (toBeCompared == null) {
+//            return false;
+//        }
+//
+//        if (toBeCompared.getClass() != getClass()) {
+//            return false;
+//        }
+//
+//        Course course = (Course) toBeCompared;
+//        return course.getTopic() == getTopic();
+//    }
 }
